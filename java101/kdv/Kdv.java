@@ -1,7 +1,7 @@
 package kdv;
 
 import java.util.Scanner;
-
+// odev linki https://app.patika.dev/courses/java101/pratik-kdv-hesaplama
 public class Kdv {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
