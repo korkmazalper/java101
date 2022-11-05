@@ -1,5 +1,6 @@
 package bolunebilme;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Bolunebilme {
@@ -16,6 +17,10 @@ public class Bolunebilme {
             }
         }
         System.out.println(pay/payda);
+/*        Random rnd= new Random(123);
+        System.out.println(rnd.nextGaussian());
+        System.out.println(rnd.nextGaussian());*/
+    /**/
     }
     public static boolean isDividible12(int x){
         if(x%12==0)
