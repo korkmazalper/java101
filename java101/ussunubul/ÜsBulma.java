@@ -1,7 +1,6 @@
 package ussunubul;
 
 import java.util.Scanner;
-
 public class ÜsBulma {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -10,6 +9,7 @@ public class ÜsBulma {
         System.out.print("Üs gir: ");
         int üs=(int) sc.nextInt();
         System.out.println(üssünüGetir(taban,üs));
+
     }
 
     public static int üssünüGetir(int taban, int üs) {
