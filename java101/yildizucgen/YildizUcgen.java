@@ -9,15 +9,20 @@ public class YildizUcgen {
         System.out.print("Sayiyi Girin: ");
         n=sc.nextInt();
         String str="";
-        for (int i = 1; i <=n ; i++) {
+        int i=1;
+        int increment=1;
+        while(i!=0){
             for (int j = 0; j <n-i ; j++) {
                 str+=" ";
             }
-
             for (int j = 1; j <2*i ; j++) {
                 str+="*";
             }
             str+="\n";
+            if(i==n){
+                increment=-increment;
+            }
+            i+=increment;
         }
         System.out.println(str);
 
