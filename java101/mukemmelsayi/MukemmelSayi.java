@@ -21,9 +21,6 @@ public class MukemmelSayi {
                 toplam+=i;
             }
         }
-        if(toplam==sayi){
-            return true;
-        }
-        return false;
+        return toplam==sayi?true:false;
     }
 }
