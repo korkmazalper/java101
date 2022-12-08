@@ -29,16 +29,12 @@ public class MineSweeper2 {
         showField(emptyField);
         addMinesToTheField(field);
         calculateNonminedFields(field);
-        //tarlayiGoster(tarla);
-        //tarlayiGoster(mayinlariYerlestir(tarla));
         System.out.println("========================");
-        //tarlayiGoster(sayilariYerlestir(mayinlariYerlestir(tarla)));
         while(!isOver){
             userCoordinates=getCoordinates();
             checkTheMineInCoordinates(userCoordinates);
         }
 
-        //System.out.println(userCoordinates[0] + " " + userCoordinates[1]);
     }
 
     private void checkTheMineInCoordinates(int[] userCoordinates) {
@@ -49,7 +45,7 @@ public class MineSweeper2 {
         } else{
             emptyField[userCoordinates[0]][userCoordinates[1]]=field[userCoordinates[0]][userCoordinates[1]];
             if(!isWin()){
-                showField(field);
+                //showField(field);
                 System.out.println("===================================");
                 showField(emptyField);
             }else{
@@ -75,7 +71,7 @@ public class MineSweeper2 {
             for (int j = 0; j <emptyField[0].length ; j++) {
                 if(num.contains(emptyField[i][j])){
                     number++;
-                    System.out.println(number);
+                    //System.out.println(number);
                 }
             }
 
